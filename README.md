@@ -53,6 +53,6 @@ ________________________________________________________________________________
 
 **Links to datasets used :**
 
-[Animal Dataset(Kaggle)](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-information-dataset?resource=download)
+* [Animal Dataset(Kaggle)](https://www.kaggle.com/datasets/iamsouravbanerjee/animal-information-dataset?resource=download)
 
-[Climate Dataset (World Bank Climate Change Data Portal)](https://climateknowledgeportal.worldbank.org/download-data)
+* [Climate Dataset (World Bank Climate Change Data Portal)](https://climateknowledgeportal.worldbank.org/download-data)
