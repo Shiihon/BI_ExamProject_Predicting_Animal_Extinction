@@ -44,9 +44,11 @@ This project explores how Business Intelligence and machine learning can be used
 ---
 ### How to Use the Streamlit App
 
-1. Clone the repository  
-2. Run the app using:
-
+1. Clone the repository
+2. Install Streamlit:
+   ```bash
+   pip install streamlit
+3. Run the app using:
    ```bash
    streamlit run app.py
 ---
