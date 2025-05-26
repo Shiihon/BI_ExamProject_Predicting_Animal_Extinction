@@ -11,24 +11,10 @@ ________________________________________________________________________________
 This project addresses the challenge of forecasting which animals are most at risk of extinction in the near future. By combining animal characteristics (such as gestation period, number of offspring, and habitat) with historical climate data (such as rising average surface temperatures), the goal is to build a predictive model that identifies species showing early signs of vulnerability. 
 
 This is an important research goal because it allows action to be taken before animals reach endangered status. The solution could support researchers, and environmental policymakers by helping them prioritize efforts and protect biodiversity more effectively.
-________________________________________________________________________________________________________________________________________________________________
+---
 
 ### Context & Purpose
 This project explores how Business Intelligence and machine learning can be used to anticipate extinction risk in animals. It combines structured biological data with environmental indicators to find patterns and make future predictions.
-
-### Research questions
-* Can we build a model that predicts which animals are likely to become endangered next?
-* Which traits (biological or environmental) are the strongest indicators of future extinction risk?
-* Is there a measurable link between rising climate pressure (e.g. temperature increase) and species vulnerability?
-* How does the combination of climate data and species-specific features improve prediction compared to using only one data type?
-
-### Hypothesis
-* Animals with low reproductive output (few offspring, long gestation) are more likely to face extinction.
-* Species located in countries with sharply rising temperatures are at higher risk.
-* Carnivorous species are more vulnerable due to higher food chain dependence and niche sensitivity.
-* Habitat type and social structure will improve extinction prediction accuracy when modeled alongside climate data.
-* A model combining both biological and climate indicators will outperform single-source models.
-
 ________________________________________________________________________________________________________________________________________________________________
 
 ### Development environment
