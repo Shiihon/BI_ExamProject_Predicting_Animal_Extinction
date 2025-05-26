@@ -39,6 +39,8 @@
 
 * These duplicates were later removed to ensure a clean dataset, resulting in a one-to-one mapping per region per animal.
 
+---
+
 ### **Considerations and Limitations**
 #### This regional mapping allowed for the datasets to be merged effectively on a shared geographical level (region). However, this approach introduces certain limitations:
 
@@ -49,36 +51,37 @@
 * A more precise solution would have involved mapping each animal to every country it exists in and then joining with exact country-level climate data. Due to time constraints, this was not feasible in the current project scope, but it is a clear direction for future work to improve the precision and reliability of the analysis.
 
 ---
-## 📊 Endangered Species Prediction – Summary of Findings
+
+## Endangered Species Prediction – Summary of Findings
 
 This project explored whether it's possible to predict species extinction risk using a combination of **biological traits** and **climate data**.  
 By merging an animal dataset with global temperature trends, we investigated how climate pressure interacts with species-specific traits like diet, habitat, social structure, and reproduction.
 
 ---
 
-### 🔍 Research Questions
+### Research Questions
 
 **1. Can we build a model that predicts which animals are likely to become endangered next?**  
-✅ Yes – the combined dataset enabled the creation of predictive models with measurable accuracy.  
-Models using biological traits alone performed reasonably well, and performance improved further when climate features were added. This shows it is **feasible to predict extinction risk**, although results vary depending on available features.
+ - Yes – the combined dataset enabled the creation of predictive models with measurable accuracy.  
+ Models using biological traits alone performed reasonably well, and performance improved further when climate features were added. This shows it is **feasible to predict extinction risk**, although results vary depending on available features.
 
 **2. Which traits (biological or environmental) are the strongest indicators of future extinction risk?**  
-- **Reproductive rate** (e.g., offspring per birth) showed a strong signal: species with fewer offspring tended to be more at risk.  
-- **Social structure** also mattered — herd-based and group-dependent animals had higher risk proportions.  
-- **Habitat type** helped differentiate risk levels, especially in areas like Freshwater and Tundra regions.  
-- While **temperature change** was not the strongest single predictor, it was consistently higher in some of the most vulnerable habitats.
+ - **Reproductive rate** (e.g., offspring per birth) showed a strong signal: species with fewer offspring tended to be more at risk.  
+ - **Social structure** also mattered — herd-based and group-dependent animals had higher risk proportions.  
+ - **Habitat type** helped differentiate risk levels, especially in areas like Freshwater and Tundra regions.  
+ - While **temperature change** was not the strongest single predictor, it was consistently higher in some of the most vulnerable habitats.
 
 **3. Is there a measurable link between rising climate pressure (e.g. temperature increase) and species vulnerability?**  
-✅ Partially.  
-On average, at-risk species were found in slightly warmer and more climate-affected regions (e.g., Mountains, Tundra, Freshwater). However, temperature change alone was not a strong predictor — its value was clearer when combined with biological traits.
+ - Partially.  
+ On average, at-risk species were found in slightly warmer and more climate-affected regions (e.g., Mountains, Tundra, Freshwater). However, temperature change alone was not a strong predictor — its value was clearer when combined with biological traits.
 
 **4. How does the combination of climate data and species-specific features improve prediction compared to using only one data type?**  
-✅ Models using both data types **outperformed single-source models**.  
-Biological-only models captured species-specific risk factors, while climate-only models were too broad. The combined model showed better feature diversity and more balanced performance, especially in edge cases.
+ - Models using both data types **outperformed single-source models**.  
+ Biological-only models captured species-specific risk factors, while climate-only models were too broad. The combined model showed better feature diversity and more balanced performance, especially in edge cases.
 
 ---
 
-### 💡 Hypothesis Review
+### Hypothesis Review
 
 | Hypothesis                                                                                         | Outcome      |
 |----------------------------------------------------------------------------------------------------|--------------|
@@ -98,7 +101,7 @@ Biological-only models captured species-specific risk factors, while climate-onl
 
 ---
 
-### ✅ Conclusion
+### Conclusion
 
 This analysis confirms that extinction risk is a **multifactorial issue**, influenced by a mix of biological traits and climate dynamics.  
 The best predictive power comes from **combining both domains**, which helps account for individual species behavior **and** external environmental pressure.
