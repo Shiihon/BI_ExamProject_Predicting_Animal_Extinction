@@ -1,6 +1,15 @@
 # **Predicting animal extinction**
 
-## In the face of accelerating biodiversity loss and climate change, this project aims to predict which animal species are at greatest risk of extinction by analyzing patterns in their biological traits and environmental conditions. It combines comprehensive datasets of species-specific characteristics (e.g., lifespan, reproductive rate, habitat type, diet, conservation status) with historical climate data (such as country-level temperature trends) to incorporate both intrinsic biological factors and external environmental pressures into the analysis. Using this integrated data, the project employs a suite of analytical techniques—including classification algorithms (such as Decision Tree models), clustering analysis, and data visualization tools—to identify key patterns and build a predictive model for extinction risk. By highlighting vulnerable species before they become critically endangered, this data-driven approach provides early warning insights and underscores the importance of predictive modeling in guiding biodiversity conservation efforts.
+## In a time where biodiversity is declining and climate change is speeding up, this project set out to figure out which animal species might be next in line for extinction. To do that, it brings together two types of information:
+
+- Biological traits of animals — like how long they live, how many babies they have, what they eat, and where they live
+
+- And climate data — especially how temperatures have been changing over time in different parts of the world
+
+## By combining these two datasets, the project looks at both the internal traits of species and the external pressures they’re facing. Using a mix of tools like decision tree models, clustering, and visualizations, it identifies patterns and builds models that can help predict which species are at risk.
+
+## The goal? To spot warning signs early — ideally before a species becomes critically endangered.
+This kind of data-driven approach can give conservation efforts a head start, helping focus attention where it’s needed most, and showing the value of using prediction to protect biodiversity.
 
 ### **Research questions**
 * Can we build a model that predicts which animals are likely to become endangered next?

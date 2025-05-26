@@ -1,32 +1,77 @@
 import streamlit as st
 
-# 💚 Page title
-st.set_page_config(page_title="Animal Extinction Risk", layout="wide")
-st.title("BI Exam: Animal Extinction Risk Prediction Project")
+# Set page config (only once)
+st.set_page_config(
+    page_title="Welcome | Animal Extinction Risk",
+    layout="wide"
+)
 
-# 🔎 Project intro
+# Title section
 st.markdown("""
-Welcome to the **Animal Extinction Risk Predictor** app!
+<h1 style='text-align: center;'>
+    🌍 <span style="font-size: 2.5rem;">WildTrack: Species Risk & Survival</span>
+</h1>
+<p style='text-align: center; font-size: 1.1rem;'>
+    Welcome to my <strong>BI Exam Project Dashboard</strong>!
+</p>
+<p style='text-align: center;'>This interactive app explores:</p>
+<blockquote style='text-align: center; font-style: italic; color: #555;'>
+    Which animals are most at risk of extinction — and why?
+</blockquote>
+<p style='text-align: center; max-width: 850px; margin: auto;'>
+    By combining <strong>biological traits</strong> with <strong>climate data</strong>,
+    this project uses machine learning to help predict species vulnerability.
+</p>
+""", unsafe_allow_html=True)
 
-This tool uses animal biological data and climate indicators to help predict the **risk of extinction** for different species.
-It is based on a machine learning model trained on real datasets.
+st.markdown("<br>", unsafe_allow_html=True)
+# Use central space for content: left buffer, center (offers + works), right buffer
+col_spacer1, col_main1, col_main2, col_spacer2 = st.columns([3, 4, 4, 1])
 
-### 👈 Use the menu on the left to:
-- Explore data visualizations
-- Input animal traits and **get a prediction**
-""")
 
-# 📷 Optional image (make sure the path is correct)
-# st.image("images/extinction.jpg", use_column_width=True)
+with col_main1:
+    st.markdown("### What this app offers:")
+    st.markdown("""
+    - Interactive **data visualizations**  
+    - Custom input to get a **risk prediction**  
+    - Insights into which traits matter most — and why  
+    """)
 
-# Sidebar (shows on all pages)
-st.sidebar.title("📘 About")
+with col_main2:
+    st.markdown("### How it works:")
+    st.markdown("""
+    - **Model used:** Logistic Regression  
+    - **Data sources:**  
+        - Kaggle Animal Dataset  
+        - World Bank Climate Indicators  
+    """)
+
+# 📎 GitHub link
+st.markdown("""
+<br>
+<p style='text-align: center; font-size: 1.05rem;'>
+    If you’d like to explore the code or methodology:<br>
+    👉 <a href="https://github.com/Shiihon/BI_ExamProject_Predicting_Animal_Extinction/tree/main" target="_blank"><strong>View full GitHub repo</strong></a>
+</p>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<p style='text-align: center; font-size: 0.95rem; color: #555;'>
+    Interested in the research questions and hypothesis results?<br>
+    You can find them in the full <strong>project report</strong> inside the GitHub repo.
+</p>
+""", unsafe_allow_html=True)
+
+# 🧾 Sidebar still clean
+st.sidebar.title("📘 About This App")
 st.sidebar.markdown("""
-Built by Nanna using data from:
-- Kaggle Animal Dataset
-- World Bank Climate Indicators
+Created by **Nadia Hamza**  
+BI Exam Project (Semester 4)
+(CphBusiness Lyngby)
 
-Model used: **Decision Tree Classifier**
+- Combines climate + species data  
+- Predicts extinction risk  
+- Explains model logic  
 
-Enjoy exploring the data and trying out predictions!
+Enjoy exploring 🌱
 """)
